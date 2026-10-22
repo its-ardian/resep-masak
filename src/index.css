@@ -853,10 +853,11 @@ textarea {
   color: var(--color-kunyit-dark);
 }
 
-/* Kolom pencarian: lebar penuh, bentuk pil, tinggi sama dengan dropdown */
+/* Kolom pencarian: lebar penuh, bentuk pil, sejajar dengan dropdown */
 .search-wrap {
   position: relative;
   width: 100%;
+  margin-top: 4px;
   margin-bottom: 12px;
 }
 
@@ -882,8 +883,4 @@ textarea {
 /* Beri ruang di atas konten agar outline fokus tidak tertutup header */
 .app-content {
   padding-top: 10px;
-}
-
-.search-wrap {
-  margin-top: 4px;
 }

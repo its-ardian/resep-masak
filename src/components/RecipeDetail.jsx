@@ -60,7 +60,7 @@ export default function RecipeDetail({
           }}
         >
           <PlusIcon style={{ width: 16, height: 16 }} />
-          {addedToPlan ? "Pilih hari" : "Tambah ke rencana"}
+          {addedToPlan ? "Pilih hari" : "Ke rencana"}
         </button>
         <button
           className="btn btn-secondary"
@@ -71,7 +71,7 @@ export default function RecipeDetail({
           }}
         >
           <BagIcon style={{ width: 16, height: 16 }} />
-          {addedToGrocery ? "Di belanja" : "Catat di belanja"}
+          {addedToGrocery ? "Di belanja" : "Ke belanja"}
         </button>
       </div>
 
